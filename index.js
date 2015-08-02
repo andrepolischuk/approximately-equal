@@ -1,6 +1,6 @@
 import EPSILON from 'number-epsilon';
 
 export default (a, b, error = 0) => {
-  error += EPSILON;
-  return a >= b - error && a <= b + error;
+  const diff = Math.abs(a - b);
+  return diff >= 0 && diff - error < EPSILON;
 };

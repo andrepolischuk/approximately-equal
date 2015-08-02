@@ -13,8 +13,8 @@ npm install --save approximately-equal
 ```js
 var approximatelyEqual = require('approximately-equal');
 
-approximatelyEqual(100.05, 100.1, 0.01); // false
-approximatelyEqual(100.05, 100.06, 0.01); // true
+approximatelyEqual(100.5, 101, 0.1); // false
+approximatelyEqual(100.5, 100.6, 0.1); // true
 ```
 
 ## API
