@@ -1,6 +1,6 @@
 # approximately-equal [![Build Status][travis-image]][travis-url]
 
-  > Check if two numbers are approximately equal
+> Check if two numbers are approximately equal
 
 ## Install
 
@@ -12,7 +12,6 @@ npm install --save approximately-equal
 
 ```js
 var approximatelyEqual = require('approximately-equal');
-
 approximatelyEqual(100.5, 101, 0.1); // false
 approximatelyEqual(100.5, 100.6, 0.1); // true
 ```
@@ -21,11 +20,11 @@ approximatelyEqual(100.5, 100.6, 0.1); // true
 
 ### approximatelyEqual(a, b, error)
 
-  Check if `a` equal to `b` with approximation `error`
+Check if `a` equal to `b` with approximation `error`
 
 ## License
 
-  MIT
+MIT
 
 [travis-url]: https://travis-ci.org/andrepolischuk/approximately-equal
 [travis-image]: https://travis-ci.org/andrepolischuk/approximately-equal.svg?branch=master
