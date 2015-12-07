@@ -11,7 +11,7 @@ npm install --save approximately-equal
 ## Usage
 
 ```js
-var approximatelyEqual = require('approximately-equal');
+import approximatelyEqual from 'approximately-equal';
 approximatelyEqual(100.5, 101, 0.1); // false
 approximatelyEqual(100.5, 100.6, 0.1); // true
 ```
