@@ -1,7 +1,7 @@
 {
   "name": "approximately-equal",
   "description": "Check if two numbers are approximately equal",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "keywords": [
     "number",
     "approximately",
