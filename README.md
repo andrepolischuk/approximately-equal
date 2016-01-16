@@ -12,15 +12,33 @@ npm install --save approximately-equal
 
 ```js
 import approximatelyEqual from 'approximately-equal';
+
 approximatelyEqual(100.5, 101, 0.1); // false
 approximatelyEqual(100.5, 100.6, 0.1); // true
 ```
 
 ## API
 
-### approximatelyEqual(a, b, error)
+### approximatelyEqual(actual, expected[, error])
 
-Check if `a` equal to `b` with approximation `error`
+#### actual
+
+Type: `number`
+
+Actual value.
+
+#### expected
+
+Type: `number`
+
+Expected value.
+
+#### error
+
+Type: `number`  
+Default: `0`
+
+Approximation error.
 
 ## License
 
