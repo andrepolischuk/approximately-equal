@@ -1,5 +1,5 @@
 import test from 'ava';
-import approximatelyEqual from './index.es5';
+import approximatelyEqual from './index';
 
 test('approximately equal', t => {
   t.true(approximatelyEqual(100.5, 100.4, 0.1));
