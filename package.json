@@ -1,6 +1,6 @@
 {
   "name": "approximately-equal",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "description": "Check if two numbers are approximately equal",
   "main": "index.es5.js",
   "jsnext:main": "index.js",
